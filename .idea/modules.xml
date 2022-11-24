@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/qxzj-api/qxzj-api.iml" filepath="$PROJECT_DIR$/qxzj-api/qxzj-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-application/qxzj-application.iml" filepath="$PROJECT_DIR$/qxzj-application/qxzj-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-service/qxzj-cart/qxzj-cart.iml" filepath="$PROJECT_DIR$/qxzj-service/qxzj-cart/qxzj-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-api/qxzj-cart-api/qxzj-cart-api.iml" filepath="$PROJECT_DIR$/qxzj-api/qxzj-cart-api/qxzj-cart-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-service/qxzj-cms/qxzj-cms.iml" filepath="$PROJECT_DIR$/qxzj-service/qxzj-cms/qxzj-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-api/qxzj-cms-api/qxzj-cms-api.iml" filepath="$PROJECT_DIR$/qxzj-api/qxzj-cms-api/qxzj-cms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-common/qxzj-common.iml" filepath="$PROJECT_DIR$/qxzj-common/qxzj-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-common/qxzj-common-base/qxzj-common-base.iml" filepath="$PROJECT_DIR$/qxzj-common/qxzj-common-base/qxzj-common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-common/qxzj-common-util/qxzj-common-util.iml" filepath="$PROJECT_DIR$/qxzj-common/qxzj-common-util/qxzj-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-service/qxzj-dictionary/qxzj-dictionary.iml" filepath="$PROJECT_DIR$/qxzj-service/qxzj-dictionary/qxzj-dictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-api/qxzj-dictionary-api/qxzj-dictionary-api.iml" filepath="$PROJECT_DIR$/qxzj-api/qxzj-dictionary-api/qxzj-dictionary-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-generator/qxzj-generator.iml" filepath="$PROJECT_DIR$/qxzj-generator/qxzj-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-mall-parent.iml" filepath="$PROJECT_DIR$/qxzj-mall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-application/qxzj-manager-web/qxzj-manager-web.iml" filepath="$PROJECT_DIR$/qxzj-application/qxzj-manager-web/qxzj-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-service/qxzj-oms/qxzj-oms.iml" filepath="$PROJECT_DIR$/qxzj-service/qxzj-oms/qxzj-oms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-api/qxzj-oms-api/qxzj-oms-api.iml" filepath="$PROJECT_DIR$/qxzj-api/qxzj-oms-api/qxzj-oms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-service/qxzj-pay/qxzj-pay.iml" filepath="$PROJECT_DIR$/qxzj-service/qxzj-pay/qxzj-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-api/qxzj-pay-api/qxzj-pay-api.iml" filepath="$PROJECT_DIR$/qxzj-api/qxzj-pay-api/qxzj-pay-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-service/qxzj-pms/qxzj-pms.iml" filepath="$PROJECT_DIR$/qxzj-service/qxzj-pms/qxzj-pms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-api/qxzj-pms-api/qxzj-pms-api.iml" filepath="$PROJECT_DIR$/qxzj-api/qxzj-pms-api/qxzj-pms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-application/qxzj-portal-web/qxzj-portal-web.iml" filepath="$PROJECT_DIR$/qxzj-application/qxzj-portal-web/qxzj-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-service/qxzj-service.iml" filepath="$PROJECT_DIR$/qxzj-service/qxzj-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-service/qxzj-sms/qxzj-sms.iml" filepath="$PROJECT_DIR$/qxzj-service/qxzj-sms/qxzj-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-api/qxzj-sms-api/qxzj-sms-api.iml" filepath="$PROJECT_DIR$/qxzj-api/qxzj-sms-api/qxzj-sms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-service/qxzj-tenant/qxzj-tenant.iml" filepath="$PROJECT_DIR$/qxzj-service/qxzj-tenant/qxzj-tenant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-service/qxzj-ums/qxzj-ums.iml" filepath="$PROJECT_DIR$/qxzj-service/qxzj-ums/qxzj-ums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qxzj-api/qxzj-ums-api/qxzj-ums-api.iml" filepath="$PROJECT_DIR$/qxzj-api/qxzj-ums-api/qxzj-ums-api.iml" />
+    </modules>
+  </component>
+</project>

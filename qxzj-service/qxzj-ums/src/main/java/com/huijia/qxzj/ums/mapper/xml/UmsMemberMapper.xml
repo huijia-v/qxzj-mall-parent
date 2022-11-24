@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huijia.qxzj.ums.mapper.UmsMemberMapper">
+
+
+    <select id="selectByName" parameterType="string" resultType="com.huijia.qxzj.ums.entity.UmsMember">
+        select * from ums_member where username = #{name}
+    </select>
+</mapper>

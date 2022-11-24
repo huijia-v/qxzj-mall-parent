@@ -1,0 +1,55 @@
+spring:
+  datasource:
+    username: root
+    password: yl20000304@
+    url: jdbc:mysql://localhost:3306/huijia_zj_mall?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: dev
+  application:
+    name: qxzj-portal-web
+
+  redis:
+    database: 0
+    host: 43.143.205.49
+    port: 6379
+    password: # 如果未单独配置默认为空即可
+    timeout: 1000
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  mapper-locations:
+    - classpath*:/com/huijia/qxzj/ums/mapper/xml/*.xml
+  type-aliases-package: com.huijia.qxzj.ums
+server:
+  port: 8083
+
+kaptcha:
+  height: 50
+  width: 200
+  content:
+    length: 5
+    source: abc12345678woshizhongguoren
+    space: 2
+  font:
+    color: black
+    name: Arial
+    size: 40
+  background-color:
+    from: lightGray
+    to: white
+  border:
+    enabled: true
+    color: black
+    thickness: 1
+

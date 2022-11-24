@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qxzj-pms-api" />
+        <module name="qxzj-common-util" />
+        <module name="qxzj-dictionary" />
+        <module name="qxzj-tenant" />
+        <module name="qxzj-sms" />
+        <module name="qxzj-oms-api" />
+        <module name="qxzj-pms" />
+        <module name="qxzj-ums" />
+        <module name="qxzj-sms-api" />
+        <module name="qxzj-manager-web" />
+        <module name="qxzj-portal-web" />
+        <module name="qxzj-generator" />
+        <module name="qxzj-cart" />
+        <module name="qxzj-oms" />
+        <module name="qxzj-pay-api" />
+        <module name="qxzj-cms" />
+        <module name="qxzj-cart-api" />
+        <module name="qxzj-pay" />
+        <module name="qxzj-common-base" />
+        <module name="qxzj-cms-api" />
+        <module name="qxzj-ums-api" />
+        <module name="qxzj-dictionary-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qxzj-api" target="1.8" />
+      <module name="qxzj-application" target="1.8" />
+      <module name="qxzj-cart" target="1.8" />
+      <module name="qxzj-cart-api" target="1.8" />
+      <module name="qxzj-cms" target="1.8" />
+      <module name="qxzj-cms-api" target="1.8" />
+      <module name="qxzj-common" target="1.8" />
+      <module name="qxzj-common-base" target="1.8" />
+      <module name="qxzj-common-util" target="1.8" />
+      <module name="qxzj-dictionary" target="1.8" />
+      <module name="qxzj-dictionary-api" target="1.8" />
+      <module name="qxzj-generator" target="1.8" />
+      <module name="qxzj-mall-parent" target="1.8" />
+      <module name="qxzj-manager-web" target="1.8" />
+      <module name="qxzj-oms" target="1.8" />
+      <module name="qxzj-oms-api" target="1.8" />
+      <module name="qxzj-pay" target="1.8" />
+      <module name="qxzj-pay-api" target="1.8" />
+      <module name="qxzj-pms" target="1.8" />
+      <module name="qxzj-pms-api" target="1.8" />
+      <module name="qxzj-portal-web" target="1.8" />
+      <module name="qxzj-portl-web" target="1.8" />
+      <module name="qxzj-service" target="1.8" />
+      <module name="qxzj-sms" target="1.8" />
+      <module name="qxzj-sms-api" target="1.8" />
+      <module name="qxzj-tenant" target="1.8" />
+      <module name="qxzj-ums" target="1.8" />
+      <module name="qxzj-ums-api" target="1.8" />
+      <module name="wrapper" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="qxzj-application" options="" />
+      <module name="qxzj-cart" options="-parameters" />
+      <module name="qxzj-cart-api" options="-parameters" />
+      <module name="qxzj-cms" options="-parameters" />
+      <module name="qxzj-cms-api" options="-parameters" />
+      <module name="qxzj-common-base" options="-parameters" />
+      <module name="qxzj-common-util" options="-parameters" />
+      <module name="qxzj-dictionary" options="-parameters" />
+      <module name="qxzj-dictionary-api" options="-parameters" />
+      <module name="qxzj-generator" options="-parameters" />
+      <module name="qxzj-manager-web" options="-parameters" />
+      <module name="qxzj-oms" options="-parameters" />
+      <module name="qxzj-oms-api" options="-parameters" />
+      <module name="qxzj-pay" options="-parameters" />
+      <module name="qxzj-pay-api" options="-parameters" />
+      <module name="qxzj-pms" options="-parameters" />
+      <module name="qxzj-pms-api" options="-parameters" />
+      <module name="qxzj-portal-web" options="-parameters" />
+      <module name="qxzj-portl-web" options="-parameters" />
+      <module name="qxzj-sms" options="-parameters" />
+      <module name="qxzj-sms-api" options="-parameters" />
+      <module name="qxzj-tenant" options="-parameters" />
+      <module name="qxzj-ums" options="-parameters" />
+      <module name="qxzj-ums-api" options="-parameters" />
+    </option>
+  </component>
+</project>

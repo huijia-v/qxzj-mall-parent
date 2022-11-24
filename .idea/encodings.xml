@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-cart-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-cart-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-cms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-cms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-dictionary-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-oms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-oms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-pay-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-pay-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-pms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-pms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-sms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-sms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-ums-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-api/qxzj-ums-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-application/qxzj-manager-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-application/qxzj-portal-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-application/qxzj-portal-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-common/qxzj-common-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-common/qxzj-common-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-common/qxzj-common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-common/qxzj-common-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-cart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-cart/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-cms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-cms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-dictionary/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-dictionary/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-oms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-oms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-pay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-pay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-pms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-pms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-sms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-tenant/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-tenant/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-ums/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qxzj-service/qxzj-ums/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

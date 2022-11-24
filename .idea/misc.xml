@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-api/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-api/qxzj-cart-api/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-api/qxzj-cms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-api/qxzj-dictionary/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-api/qxzj-oms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-api/qxzj-pay-api/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-api/qxzj-pms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-api/qxzj-sms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-api/qxzj-ums-api/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-application/qxzj-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-application/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-application/qxzj-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-common/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-common/qxzj-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-common/qxzj-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-service/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-service/qxzj-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-service/qxzj-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-service/qxzj-dictionary/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-service/qxzj-oms/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-service/qxzj-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-service/qxzj-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-service/qxzj-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-service/qxzj-tenant/pom.xml" />
+        <option value="$PROJECT_DIR$/qxzj-service/qxzj-ums/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
