@@ -19,7 +19,6 @@ import java.io.IOException;
 /**
  * 谷歌默认验证码组件
  *
- * @author 雷诺
  */
 @Component
 @Slf4j

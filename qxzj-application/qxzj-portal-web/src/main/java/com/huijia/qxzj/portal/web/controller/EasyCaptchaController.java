@@ -21,7 +21,6 @@ import java.util.UUID;
 
 /**
  * @author huijia
- * @Email: 2921523918@qq.com
  * @date 2022/11/24 4:31 下午
  */
 @RestController

@@ -118,7 +118,7 @@ public class MallGenerator {
 
         dsc.setUsername("root");
 
-        dsc.setPassword("yl20000304@");
+        dsc.setPassword("123456");
 
         dsc.setDbType(DbType.MYSQL);
         mpg.setDataSource(dsc);

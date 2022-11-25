@@ -12,7 +12,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 /**
  * @author huijia
- * @Email: 2921523918@qq.com
  * @date 2022/11/22 3:18 下午
  */
 @ControllerAdvice

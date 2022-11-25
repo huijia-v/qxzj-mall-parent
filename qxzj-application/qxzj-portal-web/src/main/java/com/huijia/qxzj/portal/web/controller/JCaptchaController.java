@@ -19,7 +19,6 @@ import java.util.Base64;
 
 /**
  * @author huijia
- * @Email: 2921523918@qq.com
  * @date 2022/11/23 5:12 下午
  */
 
