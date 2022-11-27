@@ -32,8 +32,21 @@ public class UserMemberController {
     }
 
 
+
     /**
-     * 注册
+     * 获取验证码
+     * @return
+     */
+    @GetMapping("/get-captcha")
+    public String getCaptcha(){
+
+
+        return "获取验证码";
+    }
+
+
+    /**
+     * 注册，传入验证码信息
      * @param umsMemberRegisterParamDTO 注册实体类
      * @return
      */

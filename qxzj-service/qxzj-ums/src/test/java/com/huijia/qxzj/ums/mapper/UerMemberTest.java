@@ -39,7 +39,7 @@ public class UerMemberTest {
         UmsMember t = new UmsMember();
         t.setNickName("尴尬65535");
         t.setEmail("@demo3.com");
-        t.setId(66L);
+        t.setId(71L);
 
         umsMemberMapper.updateById(t);
     }
@@ -48,5 +48,11 @@ public class UerMemberTest {
     public void t2() {
         System.out.println(new Date());
 
+    }
+
+    @Test
+    void testSelect(){
+        UmsMember cpf = umsMemberMapper.selectByName("李斯");
+        System.out.println(cpf.getNickName());
     }
 }

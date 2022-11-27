@@ -10,22 +10,6 @@ pom.xml
 
 
 
-huija-zj-mall-parent.      		   父项目
-
-huijia-zj-amll-application  	   入口(controller)
-
-huijia-zj-mall-api          			 接口(controller调用api)
-
-​		--hiujia-zj-cart-api.            购物车api
-
-​		--huijia-zj-pms-api。       商品中心api代码
-
-huijia-zj-mall-service				接口的实现层(api的实现层)
-
-huijia-zj-amll-common			通用工具类
-
-pom.xml
-
 ```
 msb-dongbao-mall-parent        	父项目
 --msb-dongbao-mall-application 	入口（controller）
@@ -185,7 +169,7 @@ import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.stereotype.Component;
 import java.util.Date;
 
-@Component //一定要机上注解，这样spring容器才能管理这个Bean
+@Component //一定要注解，这样spring容器才能管理这个Bean
 public class MyHandler implements MetaObjectHandler {
 
     @Override
@@ -355,8 +339,7 @@ Md5:
 }
   
  //data:object 	或者 list
-  
-  
+ 
 ```
 
 使˙状态码统一管理，便于前端处理
@@ -565,7 +548,6 @@ import java.lang.reflect.Method;
 
 /**
  * @author huijia
- * @Email: 2921523918@qq.com
  * @date 2022/11/22 9:51 下午
  */
 
@@ -632,7 +614,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * @author huijia
- * @Email: 2921523918@qq.com
  * @date 2022/11/22 10:27 下午
  */
 
@@ -1040,6 +1021,352 @@ public class EasyCaptchaController {
 
 
 中间件思维：将业务模版交给客户端去做
+
+## 验证码厂商
+
+[顶像](https://www.dingxiang-inc.com/business/captcha)
+
+[网易易盾](https://dun.163.com/solution/avatar)
+
+
+
+# 时序图
+
+![11-用户使用系统顺序图](/Users/huijia/MyResources/马士兵/项目/零基础项目-东宝/11-用户使用系统顺序图.jpg)
+
+# 遇到的问题
+
+mapper一般会放在resources当中，如果没有放在当中，需要在xml配置如下结构欧
+
+```xml
+ <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.4.1</version>
+                <configuration>
+                    <mainClass>com.huijia.qxzj.ums.QxzjUmsApplication</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>repackage</id>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+```
+
+![image-20221125164909537](https://huijiav.oss-cn-hangzhou.aliyuncs.com/img/202211251649986.png)
+
+
+
+```xml
+ <!--    这里约定版本号，子类的版本号集成与此-->
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-boot.version>2.4.1</spring-boot.version>
+    </properties>
+
+```
+
+```xml
+
+    <!--  这里的依赖在当前项目下不生效  这里约定版本号，子类的版本号集成与此-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+```
+
+
+
+添加如下配置可以使其被依赖，默认的jar包是不可被依赖的
+
+![image-20221125171609666](/Users/huijia/Library/Application Support/typora-user-images/image-20221125171609666.png)
+
+
+
+
+
+#电商流程
+
+![12-电商主流程](https://huijiav.oss-cn-hangzhou.aliyuncs.com/img/202211251802909.jpg)
+
+# 数据安全
+
+## http
+
+超文本传输协议，
+
+超文本，包括，图片，文字，音频，视频等
+
+传输，客户端向服务端发送东西，服务端向客户端发东西
+
+在计算机世界中，客户端与服务端之间直接传输，超文本的一个约定，应用层协议
+
+
+
+## 域名解析过程
+
+首先找浏览器缓存
+
+操作系统缓存(host，有可能会被篡改)
+
+LDNS(本地域名服务器)
+
+根域名服务器(cn、com)。
+
+主域名服务器
+
+具体域名服务器
+
+最后解析成ip，然后缓存。
+
+
+
+## 设计好的接口
+
+看优秀的设计，借鉴。借鉴优秀的代码。
+
+文档给对方，对方无需确认。
+
+
+
+## restful
+
+Resource Representational state transfer 资源表现层状态转移
+
+### 资源
+
+超文本
+
+### 表现层
+
+json、xml、二进制、avi
+
+### 状态转移
+
+修改数据，产生数据的变化
+
+
+
+### URL设计
+
+
+
+xxxx/子功能/v1 版本号
+
+避免用动词
+
+错误示范：
+
+新增订单：/add/order
+
+修改订单   /update/order
+
+
+
+正确示范：
+
+新增订单： post   /order
+
+修改订单    put   /order
+
+### 动作
+
+get 查询，单条列表
+
+post 新建资源。新增订单
+
+put 修改，更新资源，（全量更新）
+
+patch：更新，（局部更新 1/10）
+
+delete：删除
+
+```json
+应用添加
+path:/app
+method:post
+请求参数：
+{
+	"enAppName":"英文应用名称",
+	"chAppName":"中文应用名称",
+	"operator":"操作人",
+	"dataSourceType":"1",
+	
+}
+返回参数：
+{
+	"code":0,
+	"message":"消息内容"，
+	"data":{}
+}
+
+应用修改
+path:/app
+method:put
+请求参数：
+{
+	"appId":"uuid",//新增不填，修改必填
+	"enAppName":"英文应用名称",
+	"chAppName":"中文应用名称",
+	"operator":"操作人"
+	
+}
+返回参数：
+{
+	"code":0,
+	"message":"消息内容"，
+	"data":{}
+}
+
+应用修改(局部)
+path:/app/{appId}
+method:patch
+请求参数：
+{
+	"chAppName":"中文应用名称",
+}
+返回参数：
+{
+	"code":0,
+	"message":"消息内容"，
+	"data":{}
+}
+
+应用删除
+path:/app/{appId}
+method:delete
+请求参数：
+无
+返回参数：
+{
+	"code":0,
+	"message":"消息内容"，
+	"data":{}
+}
+
+应用列表
+path:/app/list?pageNumber=1&pageSize=10&queryStr=查询条件&sortrule=+a字段,-b字段
+method:get
+
+返回参数：
+{
+	"code":0,
+	"message":"消息内容"，
+	"data":{
+		"list":[
+			{
+				"appId":"uuid",
+				"enAppName":"英文应用名称",
+				"chAppName":"中文应用名称",
+				"dataSourceType":"1",
+				"operator":"操作人",
+				
+				"createTime":毫秒长整型,
+				"updateTime":毫秒长整型
+			},
+			{
+				"appId":"uuid",
+				"enAppName":"英文应用名称",
+				"chAppName":"中文应用名称",
+				"dataSourceType":"1",
+				"operator":"操作人",
+				
+				"createTime":毫秒长整型,
+				"updateTime":毫秒长整型				
+			}
+		],
+		"pageNumber":1,//第几页，从1开始。
+		"pageSize":10,//页面大小	
+		"totalRecord":100,//总数
+	}
+}
+
+应用详情
+path:/app/{appId}
+method:get
+
+返回参数：
+{
+	"code":0,
+	"message":"消息内容"，
+	"data":{
+				"appId":"uuid",
+				"enAppName":"英文应用名称",
+				"chAppName":"中文应用名称",
+				"dataSourceType":"1",
+				"operator":"操作人",
+				"createTime":毫秒长整型,
+				"upateTime":毫秒长整型
+		}
+}
+```
+
+### 防篡改
+
+api（接口）  公司用。
+
+其他公司会用。
+
+### 这俩参数：
+
+appId(阿里的飞猪，xx部门，下应用id),     appKey(appSecret)（网络中不传输。），默认值就是你当前公司的就ok了。
+
+提供方将这两个参数  下发给 使用方。
+
+### 思路
+
+用户参数，用户的签名。
+
+sign1=Md5/sha256(age=10name=张三appSecret=xxx)
+
+
+
+传给后端：name=李四&age=10&sign=xxxxxxx，
+
+sign2=Md5/sha256(age=10name=李四appSecret=xxx)
+
+
+
+学：解决方案，就别和业务耦合。
 
 
 

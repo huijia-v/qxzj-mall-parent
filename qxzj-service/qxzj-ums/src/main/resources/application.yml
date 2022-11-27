@@ -1,7 +1,7 @@
 spring:
   datasource:
     username: root
-    password: yl20000304@
+    password: 123456
     url: jdbc:mysql://localhost:3306/huijia_zj_mall?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
   profiles:

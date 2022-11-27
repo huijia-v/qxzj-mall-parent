@@ -1,4 +1,4 @@
-package com.huijia.qxzj.portal.web.controller;
+package com.huijia.qxzj.portal.web.controller.studyCaptcha;
 
 import com.baomidou.kaptcha.Kaptcha;
 import com.baomidou.kaptcha.exception.KaptchaException;

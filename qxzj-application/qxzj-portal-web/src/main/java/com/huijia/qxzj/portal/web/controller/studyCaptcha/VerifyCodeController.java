@@ -1,4 +1,4 @@
-package com.huijia.qxzj.portal.web.controller;
+package com.huijia.qxzj.portal.web.controller.studyCaptcha;
 
 import com.huijia.qxzj.common.base.annotations.TokenCheck;
 import com.huijia.qxzj.portal.web.code.ImageCode;
